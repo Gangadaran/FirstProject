@@ -15,7 +15,7 @@ public class DriverInstance extends AbstractTestNGCucumberTests {
 	private static final ThreadLocal<WebDriverWait> wait = new  ThreadLocal<WebDriverWait>();
 
 	public void setWait() {
-		wait.set(new WebDriverWait(getDriver(), 22));
+		wait.set(new WebDriverWait(getDriver(), 200));
 		
 	}
 
